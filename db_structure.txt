@@ -1,0 +1,8 @@
+- Bot_users{id,userid,banned,is_premium,sudo_user}
+- Bot_channels{id,name,token_linked_for_mempool_updates}
+- Networks{id,name,isactive}
+- TokensLinked{id,token_address,channel_id,bot_id,added_by_user} //bot_id is either main bot or sub bot created by the user!
+- BotAdded{id,botapitoken,by_user,isactive,is_premium}
+- ChannelSettings{id,chanid,botid,welcome,spammode}
+- UserWarns{id,userid,botid,warncount}
+- ChannelFilters{id,chanid,filter_word,action} //action can be mute for 5/10 min or ban or send a message/Media! for mute it can be set as mute5m and the bot will parse it !
