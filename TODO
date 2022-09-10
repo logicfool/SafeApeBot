@@ -1,0 +1,39 @@
+Commands to be done:
+    Groups:
+        /kick - Done
+        /ban - Done
+        /kickme
+        /permaban
+        /mute
+        /warn
+        /pin
+        /unpin
+        /filters - Done
+        /addfilter - Done
+        /removefilter - Done
+        /addblacklist
+        /removeblacklist
+        /postverify on/off
+        /preverify on/off
+    
+    Mempool:
+        /addtoken
+        /removetoken
+        /modifymessage
+        /showsells
+        /check #to check what tokens are being shown in the group
+    
+    Defi:
+        /hp
+        /price
+        /networks
+        /tokens <address> -  get a list of tokens with their values
+        /gains <address> - Get the total gains in all the tokens of a user based on its history
+
+
+
+ - Cache Management
+  
+
+Features that can be done later:
+    - get all the pairs of a chain and an exchange using the pair saver me and maaz and post it in a channel!
